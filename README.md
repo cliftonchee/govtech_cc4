@@ -30,3 +30,13 @@ python main.py
 
 # 5. Considerations
 [Link to Considerations](docs/considerations.md)
+
+# 6. Running unit tests
+
+There are 2 unit tests in the `tests` folder to test the output of the April 2019 result.
+
+```python
+cd tests
+python test_null.py # or test_apr_2019.py
+```
+
