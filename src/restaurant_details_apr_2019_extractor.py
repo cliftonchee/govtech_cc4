@@ -35,7 +35,7 @@ def get_individual_info(restaurant_info):
         # Check validity of month
         start_date = event_data['start_date']
         end_date = event_data['end_date']
-        if not isInApril(start_date) and not isInApril(end_date):
+        if not isInApril2019(start_date) and not isInApril2019(end_date):
             continue
 
         # Fill no photos (missing values) with NA
@@ -60,6 +60,7 @@ def get_individual_info(restaurant_info):
 
     return event_list
 
-def isInApril(date):
+def isInApril2019(date):
     month = date[5:7]
-    return month == '04'
+    year = date[:4]
+    return month == '04' and year == '2019'
