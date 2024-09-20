@@ -32,7 +32,7 @@ python main.py
 
 In the link below, I have listed some considerations and decisions behind the architecture diagram above.
 
-[Link to Considerations](docs/considerations.md)
+- [Link to Considerations](docs/considerations.md)
 
 # 6. Running unit tests
 
