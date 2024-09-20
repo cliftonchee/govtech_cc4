@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 
-class TestAprilDates(unittest.TestCase):
+class TestApril2019Dates(unittest.TestCase):
     
     def test_all_dates_in_april_2019(self):
         csv_file = '../output/apr_2019_restaurant_details.csv'
@@ -16,8 +16,6 @@ class TestAprilDates(unittest.TestCase):
         in_2019 = (years_start == '2019') | (years_end == '2019')
 
         self.assertTrue((in_april & in_2019).all(), "Not all events are in April 2019")
-
-    # Could also test for non-null values 
 
 if __name__ == '__main__':
     unittest.main()
