@@ -29,6 +29,9 @@ python main.py
 ![Architecture Diagram](docs/architecture_diagram.drawio.png)
 
 # 5. Considerations
+
+In the link below, I have listed some considerations and decisions behind the architecute diagram above.
+
 [Link to Considerations](docs/considerations.md)
 
 # 6. Running unit tests
