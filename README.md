@@ -13,14 +13,20 @@ My task is to assist Steven in extracting and analysing the necessary data from 
 
 # 3. Setup Instructions
 
-### Cloning the repo
+### a. Cloning the repo
 ```
 git clone https://github.com/cliftonchee/govtech_cc4
 ```
 
-### Running the application
+### b. Running the application
 ```
 cd govtech_cc4
 pip install -r requirements.txt
 python main.py
 ```
+
+# 4. Architecture Diagram
+![Architecture Diagram](docs/architecture_diagram.drawio.png)
+
+# 5. Considerations
+[Link to Considerations](docs/considerations.md)
