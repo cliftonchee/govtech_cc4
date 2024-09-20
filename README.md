@@ -30,7 +30,7 @@ python main.py
 
 # 5. Considerations
 
-In the link below, I have listed some considerations and decisions behind the architecute diagram above.
+In the link below, I have listed some considerations and decisions behind the architecture diagram above.
 
 [Link to Considerations](docs/considerations.md)
 
