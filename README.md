@@ -4,9 +4,9 @@ Steven, a travel blogger, is embarking on a travel food series project. He inten
 My task is to assist Steven in extracting and analysing the necessary data from the provided JSON and Excel files.
 
 # 2. Requirements
-Operating Systems: Compatible with Windows and MacOS
-Python Version: 3.12.2
-Required libraries: (in requirements.txt)
+**Operating Systems**: Compatible with Windows and MacOS <br/>
+**Python Version**: 3.12.2 <br/>
+**Required libraries**: (in requirements.txt)
 - pandas
 - numpy
 - scikit-learn
@@ -18,9 +18,9 @@ Required libraries: (in requirements.txt)
 git clone https://github.com/cliftonchee/govtech_cc4
 ```
 
-# Running the application
+### Running the application
 ```
 cd govtech_cc4
 pip install -r requirements.txt
-python run.py
+python main.py
 ```
