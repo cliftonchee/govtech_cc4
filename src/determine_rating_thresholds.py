@@ -15,7 +15,6 @@ def determine_rating_thresholds(restaurant_data):
             indiv_restaurant = restaurant_info['restaurant']
             ratings_list.append(float(indiv_restaurant['user_rating']['aggregate_rating']))
 
-    print(ratings_list)
     ratings_list = np.array(ratings_list).reshape(-1, 1)
 
     # Apply k-means clustering to determine rating thresholds
@@ -23,7 +22,7 @@ def determine_rating_thresholds(restaurant_data):
     thresholds = np.sort(kmeans.cluster_centers_.flatten())
 
     # Save thresholds to CSV
-    df = pd.DataFrame({'Thresholds': thresholds, 'Ratings': ratings})
+    df = pd.DataFrame({'Threshold': thresholds, 'Rating': ratings})
     df.to_csv('./output/rating_thresholds.csv', index=False)
    
     print("Extracted rating thresholds")

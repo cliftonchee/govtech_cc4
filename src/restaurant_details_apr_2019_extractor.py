@@ -1,7 +1,7 @@
 import pandas as pd
 
 def get_apr_2019_restaurant_data(restaurant_data):
-    print("Extracting restaurant details...")
+    print("Extracting restaurant details (Apr 2019)...")
 
     restaurant_details_list = []
 
@@ -17,7 +17,7 @@ def get_apr_2019_restaurant_data(restaurant_data):
     df = pd.DataFrame(restaurant_details_list)
     df.to_csv('./output/apr_2019_restaurant_details.csv', index=False)
 
-    print("Extracted restaurant details.")
+    print("Extracted restaurant details (Apr 2019).")
 
 def get_individual_info(restaurant_info):
 
@@ -55,7 +55,6 @@ def get_individual_info(restaurant_info):
             'Event Start Date': start_date,
             'Event End Date': end_date,
         }
-        print(restaurant_data)
         event_list.append(restaurant_data)
 
     return event_list
